@@ -28,7 +28,9 @@ RUN apk add --no-cache \
     openssh-client \
     openssl \
     redis \
-    mongodb-tools
+    mongodb-tools \
+    iproute2 \
+    dnsutils
 
 
 CMD ["sleep", "infinity"]
