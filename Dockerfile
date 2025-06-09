@@ -9,7 +9,7 @@
 # This Dockerfile is designed to create a lightweight container with essential tools for AWS CLI operations.
 
 FROM alpine:latest
-LABEL maintainer="Ifedayo Kaim <karimjnr@gmail.com>"
+LABEL maintainer="Ifedayo Karim <karimjnr@gmail.com>"
 LABEL description="A minimal Alpine-based image with Python, AWS CLI, and utilities."
 LABEL repository="https://github.com/ifelight/docker-util"
 
